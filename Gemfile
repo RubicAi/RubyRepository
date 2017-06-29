@@ -8,6 +8,7 @@ end
 gem 'jquery-rails'
 gem 'pg'
 
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails'
 # Use sqlite3 as the database for Active Record
