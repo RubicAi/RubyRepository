@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 gem 'jquery-rails'
-
+gem 'pg'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails'
@@ -49,7 +49,7 @@ group :development do
 end
 
 group :production do
- gem 'pg'
+
   gem 'rails_12factor'
 end
 
